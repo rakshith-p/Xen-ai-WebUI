@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>ChooseUser</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    
+        <script src='js/loginMaker.js'></script>
+
+        <script src="js/index.js"></script>
+    
+  </head>
+
+  <body>
+
+<div class="logmod">
+  <div class="logmod__wrapper">
+    
+    <div class="logmod__container">
+      <ul class="logmod__tabs">
+        <li data-tabtar="lgm-2"><a href="#">Site Administrator</a></li>
+        <li data-tabtar="lgm-1"><a href="#">Customer / Client</a></li>
+      </ul>
+      <div class="logmod__tab-wrapper">
+      <div class="logmod__tab lgm-1">
+        
+        <div class="logmod__form">
+          <form accept-charset="utf-8" action="CutomerLogin.php" class="simform" method = "post"> 
+            
+            <div class="simform__actions" >
+              <input class="sumbit" name="commit" type="sumbit" value="Create Account" />
+              <span class="simform__actions-sidetext">If you Are a new Customer Create an Account</span>
+			  <div class="simform__actions">
+              <input class="sumbit" name="commit" type="submit" value="Sign In" />
+              <span class="simform__actions-sidetext">Existing Customer Sign In</span>
+            </div> 
+            </div> 
+          </form>
+        </div> 
+       
+      </div>
+	  
+	  <!-- Admin tab -->
+	  
+      <div class="logmod__tab lgm-2">
+        <div class="logmod__heading">
+		<span class="logmod__heading-subtitle">If Your the Administrator of this site <strong> Continue as Administrator </strong></span>
+          
+        </div> 
+        <div class="logmod__form">
+          <form accept-charset="utf-8" action="adminLogin.php" class="simform" method ="post">
+            <div class="sminputs">
+              <div class="input full">
+                <label class="string optional" for="user-name">User ID*</label>
+                <input class="string optional" maxlength="255" id="user-email" name="user-email" placeholder="Email" type="email" size="50" />
+              </div>
+            </div>
+            <div class="sminputs">
+              <div class="input full">
+                <label class="string optional" for="user-pw">Password *</label>
+                <input class="string optional" maxlength="255" id="user-pw" name="user-pw" placeholder="Password" type="password" size="50" />
+                						<span class="hide-password">Show</span>
+              </div>
+            </div>
+            <div class="simform__actions">
+              <input class="sumbit" name="commit" type="submit" value="Log In" />
+             
+            </div> 
+          </form>
+        </div> 
+        
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    
+  </body>
