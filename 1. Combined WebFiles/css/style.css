@@ -13,10 +13,8 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
-  
-  background-image: url("/GameShop/images/LoginBackground.jpg") ;
-  background-repeat: no-repeat;
   z-index: 1;
+  background: #00ffff;
 }
 .logmod::after {
   clear: both;
