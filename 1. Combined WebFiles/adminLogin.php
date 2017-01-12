@@ -50,7 +50,7 @@ if ($result->num_rows > 0) {
 
 if($success == 1){
 	echo '<span class="simform__actions-sidetext"><p> <strong> Login Successful </p></span>';
-	echo '<div class="simform__actions"> <a href="AdminPages/template.html"> <input class = "sumbit" type = "button" value = "Continue To Console"></a></div>';
+	echo '<div class="simform__actions"> <a href="AdminPages/template.php"> <input class = "sumbit" type = "button" value = "Continue To Console"></a></div>';
 	
 }
 	
